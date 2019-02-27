@@ -1,6 +1,6 @@
 # web-sub
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![npm version](https://badge.fury.io/js/%40wedevelop%2Fweb-sub.svg)](https://badge.fury.io/js/%40wedevelop%2Fweb-sub)
 
 Simple WebSub client for Node.js. It provides `publish` and `subscribe` methods.
 
@@ -16,7 +16,7 @@ npm install --save @wedevelop/web-sub @wedevelop/web-sub-kafka-adapter
 
 ## Quick start
 
-```
+```javascript
 const WebSubClient = require('@wedevelop/web-sub')
 const KafkaAdapter = require('@wedevelop/web-sub-kafka-adapter')
 
