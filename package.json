@@ -1,0 +1,32 @@
+{
+  "name": "@wedevelop/web-sub",
+  "version": "1.0.0",
+  "description": "WebSub client for Node.js.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run cleanup && babel src -D -d dist",
+    "cleanup": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/WeDevelop-ARG/web-sub.git"
+  },
+  "keywords": [
+    "WebSub",
+    "Node.js"
+  ],
+  "author": "Abel M. Osorio <abel.m.osorio@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeDevelop-ARG/web-sub/issues"
+  },
+  "homepage": "https://github.com/WeDevelop-ARG/web-sub#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "standard": "^12.0.1"
+  }
+}
